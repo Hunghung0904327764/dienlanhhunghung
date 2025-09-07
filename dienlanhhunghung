@@ -1,0 +1,68 @@
+index.html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Điện lạnh Hùng Hưng - Hải Phòng</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #0d6efd; color: white; padding: 20px; text-align: center; }
+    nav { background: #f8f9fa; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #0d6efd; font-weight: bold; }
+    section { padding: 20px; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 15px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); }
+    footer { background: #0d6efd; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Điện lạnh Hùng Hưng</h1>
+    <p>Dịch vụ điện lạnh chuyên nghiệp tại Hải Phòng</p>
+  </header>
+
+  <nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#services">Dịch vụ</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <section id="about">
+    <h2>Về chúng tôi</h2>
+    <p>
+      Điện lạnh Hùng Hưng chuyên sửa chữa, bảo dưỡng, lắp đặt các thiết bị điện lạnh: 
+      điều hòa, tủ lạnh, máy giặt, bình nóng lạnh… với đội ngũ thợ tay nghề cao, phục vụ tận nơi tại Hải Phòng.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Dịch vụ của chúng tôi</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Sửa chữa điều hòa</h3>
+        <p>Khắc phục nhanh chóng các sự cố về điều hòa, đảm bảo mát lạnh & tiết kiệm điện.</p>
+      </div>
+      <div class="card">
+        <h3>Bảo dưỡng định kỳ</h3>
+        <p>Dọn vệ sinh, kiểm tra toàn diện thiết bị giúp máy hoạt động bền bỉ.</p>
+      </div>
+      <div class="card">
+        <h3>Lắp đặt thiết bị</h3>
+        <p>Thi công lắp đặt an toàn, thẩm mỹ, đúng kỹ thuật cho các thiết bị điện lạnh.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <p><strong>Địa chỉ:</strong> Lô 331 liền kề 7 Anh Dũng V, phường Hưng Đạo, TP Hải Phòng</p>
+    <p><strong>Điện thoại:</strong> 0904 327 764</p>
+    <p><strong>Email:</strong> <a href="mailto:dienlanhhunghung@gmail.com">dienlanhhunghung@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Điện lạnh Hùng Hưng - Hải Phòng</p>
+  </footer>
+</body>
+</html>
